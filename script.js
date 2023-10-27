@@ -62,3 +62,20 @@ console.log(typeof languages)
 const user = {email: "email@gmail.com", password: "1234", age: 28} //object literals
 console.log(user)
 console.log(typeof user)
+
+//metodos de string
+const fullname = "Lukas Saldanha"
+
+console.log(fullname.length)
+
+const stringToArray = fullname.split()
+
+console.log(stringToArray)
+
+console.log(fullname.toLowerCase())
+
+console.log(fullname.toUpperCase())
+
+console.log(fullname.indexOf("Saldanha"))
+
+console.log(fullname.slice(0, 7))
