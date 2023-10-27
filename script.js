@@ -79,3 +79,33 @@ console.log(fullname.toUpperCase())
 console.log(fullname.indexOf("Saldanha"))
 
 console.log(fullname.slice(0, 7))
+
+//metodos de array
+
+const list = ['a', 'b', 'c', 'd', 'e']
+
+console.log(list.length)
+
+console.log(list[2])
+
+list[5] = 'f'
+
+console.log(list)
+
+console.log(list[list.length - 1]) //como pega o ultimo elemento da lista
+
+list.push('g')
+
+console.log(list)
+
+list.pop()//remove o ultimo elemento da lista
+
+console.log(list)
+
+list.shift()//remove o primeiro elemento da lista
+
+console.log(list)
+
+list.unshift('a')//adiciona um novo elemento no comeco da lista
+
+console.log(list)
